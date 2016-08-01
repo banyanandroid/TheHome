@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheHome</string>
+
+    <string-array name="payment">
+        <item>Visa Card / Credit Card</item>
+        <item>Mastercard credit / Credit Card</item>
+        <item>Diners Credit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+
+</resources>
