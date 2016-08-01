@@ -27,8 +27,6 @@ import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, BottomSheetListener {
 
-    //some changes
-
     private static final String TAG = MainActivity.class.getSimpleName();
     private static long back_pressed;
     String[] List_Rooms = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
@@ -38,8 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int to_year, to_month, to_date;
     String str_to_date = "DATE";
     String str_from_date = "DATE";
-    String str_from_dummy = "GIT TEST";
-    String str_from_dummy_123 = "GIT TEST";
 
     EditText edt_checkin_date, edt_check_out_date;
     TextView txt_days;
