@@ -34,8 +34,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String[] List_Childs = {"1", "2"};
     int from_year, from_month, from_date;
     int to_year, to_month, to_date;
+
+    // String
     String str_to_date = "DATE";
     String str_from_date = "DATE";
+
 
     EditText edt_checkin_date, edt_check_out_date;
     TextView txt_days;
