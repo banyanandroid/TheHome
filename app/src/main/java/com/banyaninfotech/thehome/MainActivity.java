@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String str_to_date = "DATE";
     String str_from_date = "DATE";
     String str_from_dummy = "GIT TEST";
+    String str_from_dummy_123 = "GIT TEST";
+
     EditText edt_checkin_date, edt_check_out_date;
     TextView txt_days;
     Button btn_book;
