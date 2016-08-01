@@ -30,22 +30,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //some changes
 
     private static final String TAG = MainActivity.class.getSimpleName();
+    private static long back_pressed;
     String[] List_Rooms = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
     String[] List_Adults = {"1", "2", "3"};
     String[] List_Childs = {"1", "2"};
-
     int from_year, from_month, from_date;
     int to_year, to_month, to_date;
-
     String str_to_date = "DATE";
-
     String str_from_date = "DATE";
-
+    String str_from_dummy = "GIT TEST";
     EditText edt_checkin_date, edt_check_out_date;
     TextView txt_days;
     Button btn_book;
-
-    private static long back_pressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
