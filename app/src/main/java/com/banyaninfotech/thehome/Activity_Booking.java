@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 /**
- * Created by User on 7/19/2016.
+ * Created by chandru on 7/19/2016.
  */
 public class Activity_Booking extends Activity implements View.OnClickListener{
 
